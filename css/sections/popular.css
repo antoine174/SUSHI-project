@@ -1,0 +1,194 @@
+.popular-foods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+    background-color: var(--primary-color);
+}
+.popular-foods__title {
+  font-size: 75px;
+  color: white;
+  margin-bottom: 32px;
+    font-weight: 600;
+    font-family: var(--playfair-display-font);
+    text-align: center;
+}
+.popular-foods__filters{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+  overflow-x: auto;
+    gap: 24px;
+    justify-content: center;
+}
+.popular-foods__filter-btn{
+    display: flex;
+    padding: 10px 28px;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.02  );
+    border-radius: 46px;
+    color: white;   
+    font-family: var(--plus-jakarta-sans);
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.popular-foods__filters .active {
+  background-color: white;
+  color: var(--secondary-color);
+}
+.popular-foods__filter-btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.popular-foods__catalogue{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 56px;
+    margin-top: 50px;
+}
+.popular-foods__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 24px;
+}
+.popular-foods__card-image {
+    width: 180px;
+    height: fit-content;
+    object-fit: contain;
+}
+.popular-foods__card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 16px 0;
+  font-family: var(--plus-jakarta-sans);
+}
+
+
+.popular-foods__card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+.popular-foods__card-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--plus-jakarta-sans);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.popular-foods__card-prics {
+  font-size: 20px;
+  font-weight: 600;
+color: #fff;
+  font-family: var(--plus-jakarta-sans);
+}
+
+
+
+
+.popular-foods__button {
+  width: fit-content;
+
+  padding: 20px 30px;
+  margin: 80px auto 0;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: var(--plus-jakarta-sans);
+  color: #fff;
+
+  border: none;
+  outline: none;
+  background: var(--secondary-color);
+  border-radius: 64px;
+  cursor: pointer;
+}
+.popular-foods__button img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  gap: 10px;
+  
+}
+.popular-foods__button:hover {
+  scale: 1.12;
+}
+
+.popular-foods__catalogue .active-card {
+    background-color: white;
+    color: var(--secondary-color);
+    width: 450px;
+    height: 350px;
+
+}
+
+.popular-foods__catalogue .active-card .popular-foods__card-image {
+    width: 250px;
+    height: fit-content;
+    object-fit: contain;
+}
+
+.popular-foods__catalogue .active-card h4{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 16px 0;
+    font-family: var(--plus-jakarta-sans);
+}
+.popular-foods__catalogue .active-card .popular-foods__card-details {
+    color: var(--secondary-color);
+    font-family: var(--plus-jakarta-sans);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popular-foods__catalogue .active-card .popular-foods__card-prics {
+    color: var(--secondary-color);
+    font-family: var(--plus-jakarta-sans);
+    font-size: 20px;
+    font-weight: 600;
+}
+.popular-foods__card:hover{
+   scale: 1.1;
+
+
+}
+@media screen and (max-width:1151px) {
+.popular-foods__catalogue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.popular-foods__filters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}

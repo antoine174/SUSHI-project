@@ -1,0 +1,132 @@
+.trending{
+  position:relative ;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+margin-bottom:0px;
+padding-bottom:0px;
+margin-top:0px;
+}
+
+.trending-sushi,.trending-drinks{
+  min-height: 640px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
+}
+.trending-sushi{
+  margin-top:0px;
+  border:0px;
+  padding-top:0px;
+}
+
+.trending__content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 64px;
+}
+.trending__list{
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.trending__list li{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  min-width: 210px;
+}
+.trending__icon{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+}
+.trending__icon img{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.trending__list li p{
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+}
+.trending__image{
+  flex: 1;
+  position: relative;
+  padding: 32px 64px;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../../assets/japanese_sushi.png");
+}
+.trending__image img{
+  width: 254px;
+  height: 260px;
+  object-fit: contain;
+}
+/* Arrows */
+.trending__arrow{
+  position: absolute;
+  z-index: 1;
+}
+
+.trending__arrow img {
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
+.trending__arrow-left{
+  left: -2.5px;
+  top: 12%;
+}
+
+.trending__arrow-bottom{
+  bottom: -7px;
+  right: 12%;
+}
+.trending__arrow-top{
+  top: -10.5px;
+  left: 12%;
+}
+.trending__arrow-right{
+  right: -2.5px;
+  bottom: 12%;
+}
+
+.trending__discover {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  z-index: 1;
+
+  width: 150px;
+  height: 160px;
+  
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--plus-jakarta-sans);
+text-transform: uppercase;
+}
+.trending__discover:hover {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+
+}
+
+.trending-drinks{
+  margin-bottom: 0px;
+}
