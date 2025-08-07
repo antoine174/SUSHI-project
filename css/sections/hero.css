@@ -173,80 +173,9 @@
     margin-bottom: 10px;
     opacity: 0.8;
 }
-/* .hero-content-testimonial-ayout {
-    position: absolute;
-    inset: 0;
-    background-color:white;
-    width: 100%;
-    z-index: -1;
-} */
 
-
-/* .hero-content-info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    z-index: 10;
+/* media*/
+@media screen and (max-width:1151px) {
+    .hero-content-customers h4 {   
+    font-size: 40px;
 }
-
-
-.hero-content-info h1 {
-    font-family: var(--plus-jakarta-sans);
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 24px;
-    color: var(--secondary-color);
-}
-
- */
-
-
-
-
-
-
-
-
-
-/* .hero {
-  display: flex;
-  min-height: calc(100vh - 74px);
-  overflow: hidden;
-}
-
-.hero-img {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-
-  position: relative;
-  z-index: 5
-}
-
-.hero-img img {
-  width: 120%;
-  height: 100%;
-  object-fit: contain;
-}
-*/
-/* .hero-img__overlay {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-
-  background-color: var(--primary-color);
-  z-index: -1;
-} */
-/*
-.hero-img h2 {
-  position: absolute;
-  bottom: 0;
-  padding: 20px;
-
-  font-family: var(--playfair-display);
-  font-weight: 700;
-  font-size: 120px;
-  line-height: 138px;
-  color: #fff;
-} */
