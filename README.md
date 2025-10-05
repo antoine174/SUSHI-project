@@ -15,6 +15,7 @@ The website is designed to provide a clean, elegant, and mobile-friendly user ex
 - **HTML5**
 - **CSS3** (Flexbox & Grid)
 - Google Fonts / Icons (optional, if used)
+- JavaScript
 
 ## 🌐 Live Demo
 
